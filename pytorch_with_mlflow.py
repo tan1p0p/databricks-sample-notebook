@@ -1,4 +1,10 @@
 # Databricks notebook source
+# MAGIC %md
+# MAGIC # PytorchでMLFlowを使うサンプル
+# MAGIC 参考: https://qiita.com/taka_yayoi/items/08a4dbea3c943a5ae2ea
+
+# COMMAND ----------
+
 import torch
 import torch.nn.functional as F
 from torchmetrics import Accuracy
